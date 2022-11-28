@@ -93,6 +93,9 @@ namespace StackUsingSingleLinkList
                         break;
                     case '4':
                         return;
+                    default:
+                        Console.WriteLine("\n Invalid Choice");
+                        break;
                 }
             }
         }
