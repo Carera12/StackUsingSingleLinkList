@@ -91,6 +91,8 @@ namespace StackUsingSingleLinkList
                     case '3':
                         s.display();
                         break;
+                    case '4':
+                        return;
                 }
             }
         }
