@@ -80,6 +80,14 @@ namespace StackUsingSingleLinkList
                         int num = Convert.ToInt32(Console.ReadLine());
                         s.push(num);
                         break;
+                    case '2':
+                        if (s.empty())
+                        {
+                            Console.WriteLine("\n Stack empty");
+                            break;
+                        }
+                        s.pop();
+                        break;
                 }
             }
         }
